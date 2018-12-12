@@ -29,7 +29,7 @@ public class RedisConfig {
     }
 
     public void getJedisClient(){
-
+        //redisTemplate
       //  JedisCluster jedisCluster = new JedisCluster();
     }
 }
