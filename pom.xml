@@ -17,11 +17,11 @@
   </properties>  
   
   <groupId>com.cgx.springboot</groupId>
-  <artifactId>hello</artifactId>
+  <artifactId>spring-annotation-test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>hello</name>
+  <name>spring-annotation-test</name>
   <url>http://maven.apache.org</url>
 
 
@@ -53,6 +53,7 @@
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-data-redis</artifactId>
+          <version>2.1.0.RELEASE</version>
       </dependency>
 
       <dependency>
