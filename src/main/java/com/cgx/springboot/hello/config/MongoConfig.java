@@ -1,5 +1,7 @@
-package com.cgx.springboot.hello.mongodb;
+package com.cgx.springboot.hello.config;
 
+import com.cgx.springboot.hello.mongodb.CustomerRepository;
+import com.cgx.springboot.hello.mongodb.CustomerRepositoryImpl;
 import com.mongodb.MongoClient;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -19,7 +21,7 @@ public class MongoConfig {
         return  mongo;
     }
     @Bean
-    public  CustomerRepository getCustomerRepository(){
+    public CustomerRepository getCustomerRepository(){
         return  new CustomerRepositoryImpl();
     }
 

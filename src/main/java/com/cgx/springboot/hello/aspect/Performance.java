@@ -5,7 +5,7 @@ package com.cgx.springboot.hello.aspect;
  */
 public interface Performance {
 
-    public void perform();
+    public String perform(String name);
 
     public void highTide();
 }

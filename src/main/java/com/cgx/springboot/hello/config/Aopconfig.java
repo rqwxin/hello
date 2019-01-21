@@ -1,4 +1,4 @@
-package com.cgx.springboot.hello.aop;
+package com.cgx.springboot.hello.config;
 
 import com.cgx.springboot.hello.aspect.AdvertService;
 import org.springframework.aop.framework.ProxyFactoryBean;

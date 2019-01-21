@@ -1,7 +1,7 @@
 package com.cgx.springboot.hello;
 
 import com.cgx.springboot.hello.mongodb.Customer;
-import com.cgx.springboot.hello.mongodb.MongoConfig;
+import com.cgx.springboot.hello.config.MongoConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

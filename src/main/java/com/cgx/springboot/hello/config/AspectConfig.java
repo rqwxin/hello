@@ -1,5 +1,6 @@
-package com.cgx.springboot.hello.aspect;
+package com.cgx.springboot.hello.config;
 
+import com.cgx.springboot.hello.aspect.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

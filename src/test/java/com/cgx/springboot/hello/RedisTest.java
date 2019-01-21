@@ -1,6 +1,6 @@
 package com.cgx.springboot.hello;
 
-import com.cgx.springboot.hello.redis.RedisConfig;
+import com.cgx.springboot.hello.config.RedisConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

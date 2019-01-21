@@ -1,4 +1,4 @@
-package com.cgx.springboot.hello.redis;
+package com.cgx.springboot.hello.config;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

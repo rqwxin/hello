@@ -1,4 +1,4 @@
-package com.cgx.springboot.hello.webservice;
+package com.cgx.springboot.hello.config;
 
 import com.cgx.springboot.hello.webservice.service.UserService;
 import com.cgx.springboot.hello.webservice.service.UserServiceImpl;

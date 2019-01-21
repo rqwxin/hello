@@ -2,6 +2,7 @@ package com.cgx.springboot.hello.lifeCycle;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -12,6 +13,7 @@ import javax.annotation.PreDestroy;
  * @author: cgx
  * @create: 2018-12-11 16:33
  **/
+@Component
 public class Car implements InitializingBean,DisposableBean {
     public Car() {
         System.out.println("car construtor........");

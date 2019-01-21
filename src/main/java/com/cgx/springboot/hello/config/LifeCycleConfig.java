@@ -1,5 +1,6 @@
-package com.cgx.springboot.hello.lifeCycle;
+package com.cgx.springboot.hello.config;
 
+import com.cgx.springboot.hello.lifeCycle.Car;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
  * 		单实例：在容器启动的时候创建对象
  * 		多实例：在每次获取的时候创建对象
  *
- * BeanPostProcessor.postProcessBeforeInitialization
+ * BeanPostProcessor.postProcessBeforeInitialization 在bean初始化之前调用
  * 初始化：
  * 		对象创建完成，并赋值好，调用初始化方法。。。
  * BeanPostProcessor.postProcessAfterInitialization
