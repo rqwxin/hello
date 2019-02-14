@@ -1,4 +1,4 @@
-package com.cgx.springboot.hello.config;
+package com.cgx.springboot.hello.compoentscan;
 
 import com.cgx.springboot.hello.compoentscan.MyTypeFilter;
 import com.cgx.springboot.hello.lifeCycle.Car;

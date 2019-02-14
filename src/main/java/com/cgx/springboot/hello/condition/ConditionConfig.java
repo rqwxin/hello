@@ -1,4 +1,4 @@
-package com.cgx.springboot.hello.config;
+package com.cgx.springboot.hello.condition;
 
 import com.cgx.springboot.hello.bean.Person;
 import com.cgx.springboot.hello.condition.LinuxCondition;

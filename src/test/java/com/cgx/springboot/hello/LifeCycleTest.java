@@ -1,6 +1,6 @@
 package com.cgx.springboot.hello;
 
-import com.cgx.springboot.hello.config.LifeCycleConfig;
+import com.cgx.springboot.hello.lifeCycle.LifeCycleConfig;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

@@ -1,8 +1,7 @@
 package com.cgx.springboot.hello;
 
 import com.cgx.springboot.hello.bean.Person;
-import com.cgx.springboot.hello.config.CompoentScanConfig;
-import com.cgx.springboot.hello.config.ConditionConfig;
+import com.cgx.springboot.hello.condition.ConditionConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

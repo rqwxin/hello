@@ -1,4 +1,4 @@
-package com.cgx.springboot.hello.config;
+package com.cgx.springboot.hello.lifeCycle;
 
 import com.cgx.springboot.hello.lifeCycle.Car;
 import org.springframework.context.annotation.Bean;

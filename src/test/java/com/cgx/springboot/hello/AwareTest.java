@@ -2,7 +2,6 @@ package com.cgx.springboot.hello;
 
 import com.cgx.springboot.hello.aware.AwareBean;
 import com.cgx.springboot.hello.config.AwareConfig;
-import com.cgx.springboot.hello.config.LifeCycleConfig;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
